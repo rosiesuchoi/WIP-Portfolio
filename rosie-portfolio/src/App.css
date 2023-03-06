@@ -3,11 +3,27 @@
   padding: 0;
   background-color: black;
   cursor: none;
-}
-.name {
   color: white;
 }
+.rosie {
+  color: white;
+  font-size: 60px;
+}
 
+.nav {
+  color: white;
+  height: 500px;
+  font-size: 45px;
+  display: flex;
+  position: absolute;
+  transform: translate(1vh, 50%);
+}
+
+.nav nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
 .cursor {
   position: absolute;
@@ -29,4 +45,19 @@
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition: 100ms ease-out;
+}
+
+.cyanHover:hover {
+  animation: hoverEffect 200s forwards;
+}
+
+@keyframes hoverEffect {
+
+  0% {color: white;
+      transform: translateX(0%);    
+  }
+  .1% {color: aqua;
+      transform: translateX(10%);
+    }
+  
 }
