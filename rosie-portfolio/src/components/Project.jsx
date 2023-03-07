@@ -1,8 +1,8 @@
 const Project = props => {
 
     return (
-        <div>
-
+        <div className="backgroundProject">
+            <p>Hello</p>
         </div>
     )
 }
