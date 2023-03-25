@@ -7,8 +7,10 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar />
-      <Project />
+      <img className='left' src="./left.png" alt="left" height={50} />
+        <NavBar />
+        <Project />
+      <img className='right' src="./right.png" alt="right" height={50} />
       <Cursor />
     </div>
   );
